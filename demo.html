@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: #ff6700;
+            margin-top: 10px;
+        }
+
+        .active{
+            width: 100px;
+            height: 100px;
+            background: #24ff0b;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<input type="button" style="width: 100px; height: 50px">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+<script>
+    {
+        let one = document.querySelector(".one");
+        // one.className="active";
+        one.onclick = function () {
+            one.className= "active";
+        };
+    }
+    {
+        let two = document.querySelector(".two");
+        let three = document.querySelector(".three");
+        two.onclick = function () {
+            three.className = "active";
+        }
+    }
+    {
+        let btn= document.querySelector("input[type=button");
+        let lis = document.querySelectorAll("li");
+        btn.onclick = function () {
+            lis.forEach(function (ele) {
+                ele.className = "active"
+            })
+        }
+    }
+
+</script>
+</body>
+</html>
