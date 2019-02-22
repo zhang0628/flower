@@ -1,0 +1,384 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px "Microsoft YeHei", "sans-serif";
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*默认样式*/
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 79px;
+    background: white;
+    /*opacity: 0.2;*/
+    z-index: 9;
+}
+
+.newContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-top: 14px;
+    float: left;
+}
+
+/*行内元素，不具有宽高属性，加disaplay*/
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    /*background: #ff6700;*/
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+
+.navList li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+}
+
+/*鼠标移入时*/
+.navList li a:hover {
+    color: #16b0bc;
+    transition: color linear 0.5s;
+}
+
+.banner {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 2202px;
+    background: #f2f2f2;
+}
+.banner .top {
+    width: 100%;
+    height: 120px;
+    /*background: #16b0bc;*/
+    font-size: 35px;
+    color: #f67a82;
+    text-align: center;
+    line-height: 120px;
+}
+.banner .big {
+    width: 1232px;
+    height: 2170px;
+    margin: 0 auto;
+    /*background: #16b0bc;*/
+    font-size: 35px;
+    color: #f67a82;
+    text-align: center;
+    line-height: 120px;
+}
+
+/*中间内容*/
+.banner .left {
+    float: left;
+    margin-top: 30px;
+    width: 877px;
+    height: 2021px;
+    background: #ffffff;
+}
+
+/*.flowerList {
+    height: 1960px;
+    width: 877px;
+}*/
+
+.flowerList .flowerItem {
+    width: 816px;
+    /*height: 190px;*/
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    /*background: #ff6700;*/
+    border-bottom: rgba(0, 0, 0, 0.05) solid 1px;
+    padding-bottom: 30px;
+}
+
+.flowerItem .itemThumb {
+    float: left;
+    width: 160px;
+    height: 158px;
+}
+
+.itemThumb a, .itemThumb a img {
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+
+.flowerItem .itemInfo {
+    float: left;
+    width: 636px;
+    /*height: 50px;*/
+    font-size: 14px;
+    /*background: #3678ff;*/
+    margin-left: 20px;
+    line-height:25px;
+    text-align: left;
+}
+
+.itemInfo h2 {
+    width: 100%;
+    height: 30px;
+}
+
+.itemInfo h2 a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 22px;
+    transition: all ease 1s;
+}
+
+.itemInfo h2 a:hover {
+    color: #62a8ea;
+    text-decoration: underline;
+}
+
+.itemInfo p.infochesc {
+    line-height: 24px;
+    font-size: 16px;
+    padding: 5px 0;
+    width: 636px;
+    position: relative;
+    margin-top: 10px;
+    color: #b3b3b3;
+}
+
+.itemInfo .infoOther {
+    margin-top: 10px;
+    color: #a3afb7;
+    word-spacing: 18px;
+}
+.itemInfo .infoOther .imag img{
+    display: block;
+    float: left;
+    width: 16px;
+    height: 17px;
+    margin-top:-21px;
+    margin-left: 140px;
+}
+
+.page {
+    float: left;
+    margin-left: 310px;
+    margin-top: 30px;
+    width: 259px;
+    height: 38px;
+}
+
+.page .lePage {
+    float: left;
+    width: 70px;
+    height: 38px;
+    border: #cccccc solid 1px;
+    color: #cccccc;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+.page .lePage1 {
+    float: left;
+    width: 36px;
+    height: 38px;
+    border: #cccccc solid 1px;
+    color: white;
+    background: #f86867;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+.page .lePage2{
+    float: left;
+    width: 36px;
+    height: 38px;
+    border: #cccccc solid 1px;
+    color:#76838f;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+
+.page .rePage {
+    float: left;
+    width: 70px;
+    height: 38px;
+    border: #cccccc solid 1px;
+    text-align: center;
+    line-height: 38px;
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+.banner .right {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 262px;
+    height: 355px;
+    background: #ffffff;
+}
+.right .check{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 200px;
+    border: 1px solid #e4eaec;
+    padding: 6px 15px;
+}
+.check:focus{
+    outline: none;
+   border: #16b0bc 1px solid;
+}
+.right a img{
+    float: right;
+    margin-right: 30px;
+    margin-top: -30px;
+    width: 20px;
+    height: 20px;
+}
+.right .context{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    /*background: #16b0bc;*/
+    border-top: #cccccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    width: 222px;
+    height: 204px;
+}
+.context span{
+    float: left;
+    width: 222px;
+    height: 40px;
+    /*background: #d15050;*/
+    text-align: left;
+    line-height: 40px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+}
+.context ul {
+    float: left;
+    width: 222px;
+    margin-top: 5px;
+    /*height: 136px;*/
+}
+.context ul li{
+    width: 222px;
+    height: 44px;
+    border: #cccccc solid 1px;
+    font-size: 15px;
+    text-align: left;
+    line-height: 44px;
+    padding-left:10px;
+}
+.context ul li a:hover {
+    color: #62a8ea;
+    text-decoration: underline;
+}
+.right .all{
+    float: left;
+    margin-left: 20px;
+    /*margin-top: 10px;*/
+    width: 222px;
+    /*height: 25px;*/
+    font-size: 18px;
+    text-align: left;
+    line-height: 50px;
+}
+/*结束*/
+.white {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.end {
+    background: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 181px;
+    text-align: center;
+}
+
+.end .image {
+    width: 100%;
+    height: 56px;
+    text-align: center;
+}
+
+.end .image img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.end .endCont .span a {
+    display: inline-block;
+    text-align: center;
+}
+
+.endCont p {
+    /*margin-top: 10px;*/
+    height: 1.2em;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+
+.end .endCont .first a {
+    height: 2em;
+    display: inline-block;
+    color: #62a8ea;
+    transition: all linear 1s;
+}
+
+.end .endCont .first a:hover {
+    text-decoration: underline;
+}
+

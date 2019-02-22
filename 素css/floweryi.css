@@ -1,0 +1,220 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px "Microsoft YeHei", "sans-serif";
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*默认样式*/
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 79px;
+    background: white;
+    /*opacity: 0.2;*/
+    z-index: 9;
+}
+
+.newContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-top: 14px;
+    float: left;
+}
+
+/*行内元素，不具有宽高属性，加disaplay*/
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    /*background: #ff6700;*/
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+
+.navList li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+}
+
+/*鼠标移入时*/
+.navList li a:hover {
+    color: #16b0bc;
+    transition: color linear 0.5s;
+}
+
+.banner {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    /*height: 1550px;*/
+    background: #f2f2f2;
+}
+
+.banner .big {
+    width: 100%;
+    height: 1220px;
+    margin: 0 auto;
+    /*background: #16b0bc;*/
+    font-size: 35px;
+    text-align: center;
+}
+
+.flower{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 590px;
+    background: black;
+    overflow: hidden;
+    opacity: 0.75;
+}
+.flower img{
+    width: 100%;
+    height: 590px;
+    /*height: 583px;*/
+    /*background: #ff6700;*/
+}
+.flower img:hover{
+   transform: scale(1.1);
+    opacity: 0.65;
+}
+.flower .date{
+    position: absolute;
+    left: 320px;
+    top: 228px;
+    width: 120px;
+    height: 37px;
+    /*background: #3ef910;*/
+    font-size: 14px;
+    color: white;
+}
+.flower .date:after {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    content: "";
+    background-color: #fff;
+}
+.flower .date1{
+    position: absolute;
+    left: 320px;
+    top: 278px;
+    width: 120px;
+    height: 37px;
+    /*background: #3ef910;*/
+    font-size: 24px;
+    color: white;
+}
+.flower .date2{
+    position: absolute;
+    left: 345px;
+    top: 320px;
+    width: 40px;
+    /*height: 37px;*/
+    /*background: #3ef910;*/
+    border: 1px solid #cccccc;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+}
+.flower .date2:hover{
+    background: white;
+    color: #b0b0b0;
+}
+.big .ff{
+    font-size: 16px;
+    text-align: left;
+}
+/*结束*/
+.white {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.end {
+    background: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 181px;
+    text-align: center;
+}
+
+.end .image {
+    width: 100%;
+    height: 56px;
+    text-align: center;
+}
+
+.end .image img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.end .endCont .span a {
+    display: inline-block;
+    text-align: center;
+}
+
+.endCont p {
+    /*margin-top: 10px;*/
+    height: 1.2em;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+
+.end .endCont .first a {
+    height: 2em;
+    display: inline-block;
+    color: #62a8ea;
+    transition: all linear 1s;
+}
+
+.end .endCont .first a:hover {
+    text-decoration: underline;
+}
+

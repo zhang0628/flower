@@ -1,0 +1,184 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px "Microsoft YeHei", "sans-serif";
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*默认样式*/
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 79px;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
+}
+
+.newContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-top: 14px;
+    float: left;
+}
+
+/*行内元素，不具有宽高属性，加disaplay*/
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    /*background: #ff6700;*/
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+
+.navList li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+}
+
+/*鼠标移入时*/
+.navList li a:hover {
+    color: #16b0bc;
+    transition: color linear 1s;
+}
+
+.banner {
+    width: 100%;
+    /*height: 720px;*/
+    background: #cccccc;
+}
+.banner img{
+    width: 100%;
+    height: 385px;
+}
+/*工作*/
+.work {
+    width: 100%;
+    height: 750px;
+    border-bottom: #cccccc solid 1px;
+    margin-bottom: 10px;
+}
+
+div.workList {
+    width: 1080px;
+    /*height: 100%;*/
+    margin: 0 auto;
+}
+
+.one {
+    width: 100%;
+    height: 113px;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 180px;
+}
+
+.two {
+    width: 100%;
+    height: 362px;
+    margin: 0 auto;
+}
+
+pre {
+    font-size: 16px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.three {
+    width: 100%;
+    height: 340px;
+    margin: 0 auto;
+}
+
+.three img {
+    width: 530px;
+    height: 340px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*结束*/
+.white{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.end{
+    background: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 181px;
+    text-align: center;
+}
+.end .image{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+}
+.end .image img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.end .endCont .span a{
+    display: inline-block;
+    text-align: center;
+}
+.endCont p{
+    /*margin-top: 10px;*/
+    height: 1.2em;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+.end .endCont .first a {
+    height: 2em;
+    display: inline-block;
+    color: #62a8ea;
+    transition: all linear 1s;
+}
+
+.end .endCont .first a:hover {
+    text-decoration: underline;
+}
+
