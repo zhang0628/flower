@@ -223,6 +223,7 @@ a {
     height: 100px;
     border: 1px solid #e4eaec;
     padding: 6px 15px;
+    resize: none;
 }
 .right .check2{
     float: left;
